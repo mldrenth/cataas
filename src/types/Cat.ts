@@ -2,6 +2,6 @@ export default interface ICatData {
     _id: string,
     tags: string[],
     owner: string,
-    createdAt: Date,
-    updatedAt: Date
+    createdAt: Date | null,
+    updatedAt: Date | null
 }
